@@ -52,7 +52,7 @@ repos:
         name: run gitleaks
         description: detect hardcoded secrets with gitleaks
   - repo: https://github.com/oxipng/oxipng
-    rev: v10.1.1
+    rev: v10.2.0
     hooks:
       - id: oxipng
         name: run oxipng
@@ -105,13 +105,13 @@ repos:
         name: run actionlint
         description: lint GitHub Actions workflow files
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.4.2
+    rev: v2.4.3
     hooks:
       - id: codespell
         name: run codespell
         description: check spelling with codespell
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.49.0
+    rev: v0.49.1
     hooks:
       - id: markdownlint
         name: run markdownlint
